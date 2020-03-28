@@ -117,7 +117,7 @@ try:
                     break
         plt.bar(np.arange(16) + 8,aux_mean, color = color_range)
         plt.xlabel('hours in day', fontsize=14)
-        plt.ylabel('time ms', fontsize=14)
+        plt.ylabel('log(time) ms', fontsize=14)
         try:
             #Recording the new data
             h = dt.datetime.today().hour
