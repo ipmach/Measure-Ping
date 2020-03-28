@@ -2,6 +2,8 @@
 
 Small project to get a data stream of your ping connection. 
 
+![](gif.gif)
+
 ## Execution
   Run the main code
   ```python
