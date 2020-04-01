@@ -40,7 +40,6 @@ try:
         else: #Rest of the time
             l = np.array(l[count:].tolist()  + list(map(lambda x: float(x),l_aux)))
         ##########################
-
         n = len(l) #size of list
         x = np.arange(n)[:, np.newaxis] #x axis
         plt.xticks(x) #put axis x as int
@@ -116,7 +115,7 @@ try:
                     aux_mean.append(aux)
                     break
         plt.bar(np.arange(16) + 8,aux_mean, color = color_range)
-        plt.xlabel('hours in day', fontsize=14)
+        plt.xlabel('daytime hours', fontsize=14)
         plt.ylabel('log(time) ms', fontsize=14)
         try:
             #Recording the new data
